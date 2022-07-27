@@ -4,6 +4,7 @@
     <q-invoice-card></q-invoice-card>
     <q-table-filter></q-table-filter>
     <q-table></q-table>
+    <q-checkout></q-checkout>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import QCompanyInfo from "./QCompanyInfo.vue";
 import QInvoiceCard from "./QInvoiceCard.vue";
 import QTableFilter from "./QTableFilter.vue";
 import QTable from "./QTable.vue";
+import QCheckout from "./QCheckout.vue";
 
 export default defineComponent({
   name: "QCardContainer",
@@ -21,6 +23,7 @@ export default defineComponent({
     QInvoiceCard,
     QTableFilter,
     QTable,
+    QCheckout,
   },
   setup() {
     return {};
