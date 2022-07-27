@@ -83,8 +83,6 @@ export default defineComponent({
   flex-wrap: wrap;
   margin-bottom: 20px;
   margin-top: 25px;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .info-left-text-1 {
