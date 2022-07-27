@@ -25,6 +25,19 @@ export default defineComponent({
 
 <style scoped>
 .main-section {
-  padding: 30px 25px;
+  /* padding: 30px 25px; */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .main-section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }
 </style>
