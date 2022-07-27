@@ -9,6 +9,7 @@
             class="mobile-menu-button"
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="is_visible = !is_visible"
           >
             <span class="sr-only">Open main menu</span>
             <svg
@@ -148,7 +149,7 @@
     </div>
 
     <!-- mobile menu show/hide based on menu state. -->
-    <div class="mobile-container" id="mobile-menu">
+    <div class="mobile-container" v-if="is_visible">
       <div class="mobile-container-1">
         <a href="#" class="mobile-nav-link">Dashboard</a>
         <a href="#" class="mobile-nav-link-active" aria-current="page"
@@ -163,13 +164,18 @@
 </template>
 
 <script>
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "QNavigation",
   components: {},
   setup() {
-    return {};
+    // reactive state
+    let is_visible = ref(false);
+
+    return {
+      is_visible,
+    };
   },
 });
 </script>
