@@ -14,15 +14,15 @@
         <div style="margin-top: 10px">
           <p>
             <span class="checkout-text-1">Account Name:</span>
-            <span class="checkout-text-2">Barley Vallendito</span>
+            <span class="checkout-text-2"> Barley Vallendito</span>
           </p>
           <p>
             <span class="checkout-text-1">Account Number:</span>
-            <span class="checkout-text-2">9700 0918 197</span>
+            <span class="checkout-text-2"> 9700 0918 197</span>
           </p>
           <p>
             <span class="checkout-text-1">Routing Number:</span>
-            <span class="checkout-text-2">7382727</span>
+            <span class="checkout-text-2"> 73827275</span>
           </p>
         </div>
       </div>
